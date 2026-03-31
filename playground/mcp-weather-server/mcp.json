@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "python3",
+      "args": ["/Users/bannie/Documents/code/Agent/learn-claude-code/mcp-weather-server/simple_mcp_server.py"],
+      "env": {
+        "OPEN_WEATHER_API_KEY": "your_api_key_here"
+      }
+    }
+  }
+}

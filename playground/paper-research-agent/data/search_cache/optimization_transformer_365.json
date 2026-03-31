@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-03-31T21:35:28.792690",
+  "count": 3,
+  "papers": [
+    {
+      "id": "2603.28762v1",
+      "title": "On-the-fly Repulsion in the Contextual Space for Rich Diversity in Diffusion Transformers",
+      "authors": [
+        "Omer Dahary",
+        "Benaya Koren",
+        "Daniel Garibi",
+        "Daniel Cohen-Or"
+      ],
+      "summary": "Modern Text-to-Image (T2I) diffusion models have achieved remarkable semantic alignment, yet they often suffer from a significant lack of variety, converging on a narrow set of visual solutions for any given prompt. This typicality bias presents a challenge for creative applications that require a wide range of generative outcomes. We identify a fundamental trade-off in current approaches to diversity: modifying model inputs requires costly optimization to incorporate feedback from the generative path. In contrast, acting on spatially-committed intermediate latents tends to disrupt the forming visual structure, leading to artifacts. In this work, we propose to apply repulsion in the Contextual Space as a novel framework for achieving rich diversity in Diffusion Transformers. By intervening in the multimodal attention channels, we apply on-the-fly repulsion during the transformer's forward pass, injecting the intervention between blocks where text conditioning is enriched with emergent image structure. This allows for redirecting the guidance trajectory after it is structurally informed but before the composition is fixed. Our results demonstrate that repulsion in the Contextual Space produces significantly richer diversity without sacrificing visual fidelity or semantic adherence. Furthermore, our method is uniquely efficient, imposing a small computational overhead while remaining effective even in modern \"Turbo\" and distilled models where traditional trajectory-based interventions typically fail.",
+      "published": "2026-03-30T17:59:13+00:00",
+      "updated": "2026-03-30T17:59:13+00:00",
+      "pdf_url": "https://arxiv.org/pdf/2603.28762v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": "Conditionally accepted to SIGGRAPH 2026. Project page: https://contextual-repulsion.github.io/",
+      "word_count": 207,
+      "author_count": 4
+    },
+    {
+      "id": "2603.28759v1",
+      "title": "FlowIt: Global Matching for Optical Flow with Confidence-Guided Refinement",
+      "authors": [
+        "Sadra Safadoust",
+        "Fabio Tosi",
+        "Matteo Poggi",
+        "Fatma Güney"
+      ],
+      "summary": "We present FlowIt, a novel architecture for optical flow estimation designed to robustly handle large pixel displacements. At its core, FlowIt leverages a hierarchical transformer architecture that captures extensive global context, enabling the model to effectively model long-range correspondences. To overcome the limitations of localized matching, we formulate the flow initialization as an optimal transport problem. This formulation yields a highly robust initial flow field, alongside explicitly derived occlusion and confidence maps. These cues are then seamlessly integrated into a guided refinement stage, where the network actively propagates reliable motion estimates from high-confidence regions into ambiguous, low-confidence areas. Extensive experiments across the Sintel, KITTI, Spring, and LayeredFlow datasets validate the efficacy of our approach. FlowIt achieves state-of-the-art results on the competitive Sintel and KITTI benchmarks, while simultaneously establishing new state-of-the-art cross-dataset zero-shot generalization performance on Sintel, Spring, and LayeredFlow.",
+      "published": "2026-03-30T17:58:12+00:00",
+      "updated": "2026-03-30T17:58:12+00:00",
+      "pdf_url": "https://arxiv.org/pdf/2603.28759v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": null,
+      "word_count": 139,
+      "author_count": 4
+    },
+    {
+      "id": "2603.28756v1",
+      "title": "Fast Large-Scale Model-Based Iterative Tomography via Exploiting Mathematical Structure, Hierarchical Optimization, Smart Initialization, and Distributed GPU Computing",
+      "authors": [
+        "Dinesh Kumar",
+        "Jeffrey Donatelli"
+      ],
+      "summary": "Model-Based Iterative Reconstruction (MBIR) is important because direct methods, such as Filtered Back-Projection (FBP) can introduce significant noise and artifacts in sparse-angle tomography, especially for time-evolving samples. Although MBIR produces high-quality reconstructions through prior-informed optimization, its computational cost has traditionally limited its broader adoption. In previous work, we addressed this limitation by expressing the Radon transform and its adjoint using non-uniform fast Fourier transforms (NUFFTs), reducing computational complexity relative to conventional projection-based methods. We further accelerated computation by employing a multi-GPU system for parallel processing.\n  In this work, we further accelerate our Fourier-domain framework, by introducing four main strategies: (1) a reformulation of the MBIR forward and adjoint operators that exploits their multi-level Toeplitz structure for efficient Fourier-domain computation; (2) an improved initialization strategy that uses back-projected data filtered with a standard ramp filter as the starting estimate; (3) a hierarchical multi-resolution reconstruction approach that first solves the problem on coarse grids and progressively transitions to finer grids using Lanczos interpolation; and (4) a distributed-memory implementation using MPI that enables near-linear scaling on large high-performance computing (HPC) systems.\n  Together, these innovations significantly reduce iteration counts, improve parallel efficiency, and make high-quality MBIR reconstruction\n  practical for large-scale tomographic imaging. These advances open the door to near-real-time MBIR for applications such as in situ, in operando, and time-evolving experiments.",
+      "published": "2026-03-30T17:57:21+00:00",
+      "updated": "2026-03-30T17:57:21+00:00",
+      "pdf_url": "https://arxiv.org/pdf/2603.28756v1",
+      "primary_category": "cs.MS",
+      "categories": [
+        "cs.MS"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": null,
+      "word_count": 217,
+      "author_count": 2
+    }
+  ]
+}

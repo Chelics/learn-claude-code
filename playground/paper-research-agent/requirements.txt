@@ -1,0 +1,29 @@
+# 核心依赖
+arxiv>=2.1.0          # arXiv API
+requests>=2.31.0      # HTTP请求
+beautifulsoup4>=4.12.0 # HTML解析
+pymupdf>=1.23.0       # PDF处理
+
+# 文本分析和NLP
+nltk>=3.8.0           # 自然语言处理
+scikit-learn>=1.3.0   # 机器学习工具
+transformers>=4.35.0  # Hugging Face transformers
+sentence-transformers>=2.2.0 # 句向量
+
+# 数据处理和存储
+pandas>=2.0.0         # 数据处理
+numpy>=1.24.0         # 数值计算
+chromadb>=0.4.0       # 向量数据库
+
+# 报告生成
+matplotlib>=3.7.0     # 绘图
+seaborn>=0.12.0       # 统计图表
+jinja2>=3.1.0         # 模板引擎
+
+# 异步处理
+aiohttp>=3.8.0        # 异步HTTP
+asyncio>=3.4.3        # 异步编程
+
+# 配置和环境
+python-dotenv>=1.0.0  # 环境变量
+pydantic>=2.0.0       # 数据验证

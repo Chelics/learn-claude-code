@@ -140,6 +140,7 @@ celerybeat.pid
 .venv
 env/
 learn-claude-code/
+venv/
 ENV/
 env.bak/
 venv.bak/
